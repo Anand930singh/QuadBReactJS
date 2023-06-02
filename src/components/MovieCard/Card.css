@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+.card {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 210px;
+   background-color: #333;
+   box-shadow: 7px 7px 11px rgba(0, 0, 0, 0.5);
+   border-radius: 8px;
+   margin: 1rem;
+   padding: 2rem 0 2rem 0;
+ }
+ 
+ .showName {
+   font-family: 'Kanit', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 2rem;
+   line-height: 25px;
+   letter-spacing: 0.04em;
+   color: #fff;
+   text-align: center;
+ }
+ 
+ .imageStyle {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 15px;
+ }
+ 
+ .imageStyle {
+   height: 200px;
+   /* width: 200px; */
+   display: flex;
+ }
+ 
+ .imageStyle img {
+   object-fit: contain;
+ }
+ 
+ .ratAndLanguage {
+   position: relative;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+ 
+ .language {
+   margin-left: 1.5rem;
+   color:white;
+ }
+ 

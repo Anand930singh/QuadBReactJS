@@ -1,0 +1,13 @@
+.ratStars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    vertical-align: center;
+    color:wheat;
+   }
+   .ratStars div{
+    margin-right:0.1rem;
+   }
+   .star-icon{
+    size: 5rem;
+   }
